@@ -1,0 +1,27 @@
+{
+  "title": "N Best Something for Your Audience",
+  "compositionId": "MyCompositionId",
+  "count": 8,
+  "intro_beat_key": "PLATFORMS_IN",
+  "intro_keywords": ["here"],
+  "platforms": [
+    {
+      "name": "Platform Name",
+      "subName": "Optional Sub-Name",
+      "bestFor": "What this platform is best for",
+      "strengths": [
+        "First key strength with detail",
+        "Second key strength with detail",
+        "Third key strength with detail"
+      ],
+      "strength_keywords": ["first-word-of-strength1", "first-word-of-strength2", "first-word-of-strength3"],
+      "limitation": "The main caveat or watch-out",
+      "pricing": "From $X / year OR Custom pricing",
+      "g2": "4.5 / 5",
+      "name_keyword": "platform",
+      "gap_keyword": ["caveat", "cavia", "watch"],
+      "pricing_keyword": ["from", "custom"],
+      "g2_keyword": ["4", "5"]
+    }
+  ]
+}

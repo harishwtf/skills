@@ -1,0 +1,75 @@
+{
+  "brand_name": "MyBrand",
+  "theme": "light",
+
+  "colors": {
+    "bg": "#F7F3FF",
+    "bg_soft": "#EFE6FF",
+    "surface": "#FFFFFF",
+    "surface_soft": "#EFE6FF",
+    "heading": "#320972",
+    "body": "#3A2F4B",
+    "muted": "#6B6280",
+    "primary": "#843DF5",
+    "primary_dark": "#5C16CC",
+    "border_soft": "#EFE6FF",
+    "border": "#AD7FF5",
+    "white": "#FFFFFF"
+  },
+
+  "gradients": {
+    "brand_angle": 135,
+    "brand_start": "#8E4DFF",
+    "brand_end": "#5C16CC",
+    "bg_radial_color": "132,61,245",
+    "bg_radial_opacity": 0.07
+  },
+
+  "shadows": {
+    "base_rgb": "50,9,114",
+    "primary_rgb": "132,61,245"
+  },
+
+  "font": {
+    "google_font_id": "PlusJakartaSans",
+    "import_path": "@remotion/google-fonts/PlusJakartaSans",
+    "weights": ["400", "500", "600", "700", "800"],
+    "subsets": ["latin"]
+  },
+
+  "cards": {
+    "border_radius_min": 20,
+    "border_radius_max": 32
+  },
+
+  "radius": {
+    "xs": 8,
+    "sm": 12,
+    "md": 16,
+    "lg": 20,
+    "xl": 24,
+    "xxl": 28,
+    "pill": 999
+  },
+
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 16,
+    "lg": 24,
+    "xl": 32,
+    "xxl": 48,
+    "section_x": 120,
+    "section_y": 96
+  },
+
+  "outro_image_source": "Brand/video references/Outro.png",
+
+  "design_rules": [
+    "Light backgrounds only — never dark/navy/black",
+    "Purple family for all accents — no blues, teals, or other hues",
+    "Shadows use deep purple base, not black",
+    "Cards: white surface, soft lavender border, border-radius 20-32px",
+    "Cards must be content-sized — never let flex:1 stretch sparse cards"
+  ]
+}
