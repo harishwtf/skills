@@ -1,0 +1,25 @@
+{
+  "name": "harishwtf-skills",
+  "description": "Custom Claude Code skills for video production and motion design",
+  "owner": { "name": "harishwtf", "url": "https://github.com/harishwtf" },
+  "plugins": [
+    {
+      "name": "video-logo-removal",
+      "description": "Remove logos and brand prints from clothing and objects in real video footage (SAM 2 tracking, LaMa inpainting, temporal stabilization, QA tools)",
+      "source": "./",
+      "strict": false,
+      "category": "video",
+      "tags": ["video", "logo-removal", "inpainting", "vfx", "cleanup"],
+      "skills": ["./skills/video/video-logo-removal"]
+    },
+    {
+      "name": "saas-motion-ideation",
+      "description": "Pre-production and creative direction for SaaS marketing motion design: concepts, visual metaphors, narrative structure, storyboards",
+      "source": "./",
+      "strict": false,
+      "category": "motion-design",
+      "tags": ["motion-design", "storyboard", "creative-direction", "saas", "marketing"],
+      "skills": ["./skills/motion-design/saas-motion-ideation"]
+    }
+  ]
+}
